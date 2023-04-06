@@ -37,6 +37,10 @@
     border-radius: 5px;
 }
 
+input[type="email" i] {
+    padding: 0;
+}
+
 input::placeholder {
     color: var(--cor-cinza-claro);
     padding-left: 2em;
