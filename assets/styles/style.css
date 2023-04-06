@@ -1,0 +1,17 @@
+@import url("header.css");
+@import url("banner.css");
+
+:root {
+    --cor-de-fundo: hsl(240, 75%, 98%);
+    --fonte-principal: "Open Sans";
+    --fonte-secundaria: "Raleway";
+    --cor-azul-escuro: hsl(243, 87%, 12%);
+    --cor-cinza-claro: hsl(0, 0%, 75%);
+    --cor-azul-claro: hsl(224, 93%, 58%);
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+}
