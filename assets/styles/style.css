@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("banner.css");
+@import url("banner-segundo.css");
 
 :root {
     --cor-de-fundo: hsl(240, 75%, 98%);
@@ -7,7 +8,9 @@
     --fonte-secundaria: "Raleway";
     --cor-azul-escuro: hsl(243, 87%, 12%);
     --cor-cinza-claro: hsl(0, 0%, 75%);
+    --cor-cinza-medio: hsl(0, 0%, 40%);
     --cor-azul-claro: hsl(224, 93%, 58%);
+    --cor-verde: hsl(165, 75%, 44%);
 }
 
 body {
