@@ -47,9 +47,11 @@
 .container-borda {
     width: 60vw;
     border: 1px solid var(--cor-branco);
+    border-radius: 5px;
     background-color: var(--cor-branco);
     padding: 1.7em;
-    margin-top: 3em;
+    margin: 3em 0;
+    box-shadow: 0 0 10px hsl(0, 0%, 75%);
 }
 
 .borda-paragrafo {
