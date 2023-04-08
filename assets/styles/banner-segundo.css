@@ -48,5 +48,32 @@
     width: 60vw;
     border: 1px solid var(--cor-branco);
     background-color: var(--cor-branco);
-    padding: 1em;
+    padding: 1.7em;
+    margin-top: 3em;
+}
+
+.borda-paragrafo {
+    font-size: 10px;
+    line-height: 1.7em;
+}
+
+.container-borda-perfil {
+    display: flex;
+    flex-direction: row;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 1.5rem;
+    margin-right: .5em;
+}
+
+.nome-perfil {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.descricao-perfil {
+    font-size: 9px;
 }
