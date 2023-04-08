@@ -12,6 +12,9 @@
 }
 
 .container-banner-segundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 85vw;
     margin-top: 5em;
 }
@@ -19,10 +22,11 @@
 .banner-segundo-titulo {
     margin-bottom: 2em;
     font-weight: bold;
+    text-align: center;
 }
 
 .banner-segundo-paragrafo {
-    margin: 1.5em 0;
+    margin-bottom: 1.5em;
     font-size: 14px;
     color: var(--cor-cinza-medio);
     line-height: 1.5em;
@@ -37,4 +41,12 @@
     background-color: transparent;
     color: var(--cor-verde);
     text-align: center;
+    width: max-content;
+}
+
+.container-borda {
+    width: 60vw;
+    border: 1px solid var(--cor-branco);
+    background-color: var(--cor-branco);
+    padding: 1em;
 }
