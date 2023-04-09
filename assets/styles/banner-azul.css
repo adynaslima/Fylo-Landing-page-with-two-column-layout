@@ -1,0 +1,35 @@
+.banner-azul {
+    background-color: var(--cor-azul-escuro);
+    color: var(--cor-branco);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    padding: 4em 3em;
+}
+
+.banner-azul-logo {
+    width: 10rem;
+}
+
+.banner-azul-contatos-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+}
+
+.banner-azul-contatos-filho {
+    margin-bottom: 1.5em;
+}
+
+.banner-azul-lista {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+}
+
+.banner-azul-lista a {
+    text-decoration: none;
+    color: var(--cor-branco)
+}
+
