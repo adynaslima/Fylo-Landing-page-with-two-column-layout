@@ -1,0 +1,38 @@
+.banner-cinza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-cinza-escuro);
+    color: var(--cor-branco);
+    padding: 4em 3em;
+}
+
+.banner-cinza-titulo {
+    font-weight: 700;
+}
+
+.banner-cinza-paragrafo {
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+.banner-cinza-input {
+    font-size: 10px;
+    width: 60vw;
+    height: 5vh;
+    border: 1px solid var(--cor-cinza-claro);
+    border: none;
+}
+
+.banner-cinza-botao {
+    margin-top: 1em;
+    width: 60vw;
+    height: 5vh;
+    background-color: var(--cor-azul-claro);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+}
