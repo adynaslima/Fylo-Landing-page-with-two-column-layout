@@ -50,7 +50,7 @@
     border-radius: 5px;
     background-color: var(--cor-branco);
     padding: 1.7em;
-    margin: 3em 0;
+    margin: 3em 0 6em 0;
     box-shadow: 0 0 10px hsl(0, 0%, 75%);
 }
 
