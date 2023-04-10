@@ -8,6 +8,12 @@
     padding: 4em 3em;
 }
 
+.banner-azul-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4em;
+}
+
 .banner-azul-logo {
     width: 10rem;
 }
