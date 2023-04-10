@@ -1,0 +1,18 @@
+@media screen and (min-width: 1440px) {
+    /*Cabeçalho*/
+    .container-item {
+        padding: 6em;
+    }
+    
+    .cabecalho-logo {
+        width: 12rem;
+    }
+    
+    .cabecalho-lista {
+        column-gap: 4em;
+    }
+    
+    .cabecalho-item-lista {
+        font-size: 20px;
+    }
+}
