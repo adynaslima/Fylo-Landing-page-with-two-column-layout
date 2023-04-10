@@ -133,4 +133,39 @@
     .descricao-perfil {
         font-size: 11px;
     }
+
+    /*Banner cinza*/
+    .banner-cinza {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6em 5em;
+    }
+
+    .banner-cinza-div {
+        width: 40vw;
+    }
+
+    .banner-cinza-titulo {
+        font-size: 32px;
+    }
+
+    .banner-cinza-paragrafo {
+        font-size: 18px;
+        line-height: 1.8em;
+        text-align: start;
+        margin-bottom: 0;
+    }
+
+    .banner-cinza-input {
+        font-size: 14px;
+        width: 35vw;
+        height: 5.5vh;
+    }
+
+    .banner-cinza-botao {
+        width: 15vw;
+        height: 5.5vh;
+        font-size: 14px;
+    }
 }
