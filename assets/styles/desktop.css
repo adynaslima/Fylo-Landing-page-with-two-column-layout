@@ -1,9 +1,9 @@
 @media screen and (min-width: 1440px) {
-    /*Cabeçalho*/
-    .container-item {
+.container-item {
         padding: 6em;
     }
-    
+
+    /*Cabeçalho*/    
     .cabecalho-logo {
         width: 12rem;
     }
@@ -14,5 +14,54 @@
     
     .cabecalho-item-lista {
         font-size: 20px;
+    }
+
+    /*Banner / Formulário*/
+
+    .container-banner-formulario {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 6em;
+    }
+
+    .banner {
+        padding-top: 3em;
+    }
+
+    .banner, .container-formulario, .banner-titulo, .banner-paragrafo {
+        width: 40vw;
+    }
+
+    .banner-titulo {
+        font-size: 44px;
+        text-align: start;
+    }
+
+    .banner-paragrafo {
+        font-size: 18px;
+        line-height: 1.5em;
+        text-align: start;
+        margin: 1.5em 0;
+    }
+
+    .container-email-button {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1em;
+    }
+
+    .banner-input {
+        width: 20vw;
+        height: 5vh;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .banner-botao {
+        width: 15vw;
+        height: 5vh;
+        margin: 0;
+        border-radius: 0;
     }
 }
