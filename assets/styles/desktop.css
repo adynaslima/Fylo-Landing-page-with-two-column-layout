@@ -171,5 +171,14 @@
     }
 
     /*Banner azul*/ 
-    
+    .banner-azul {
+        padding: 6em;
+    }
+
+    .banner-azul-div {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10em;
+        font-size: 18px;
+    }
 }
