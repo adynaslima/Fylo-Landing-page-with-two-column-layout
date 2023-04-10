@@ -1,6 +1,9 @@
 @import url("header.css");
 @import url("banner.css");
 @import url("banner-segundo.css");
+@import url("banner-cinza.css");
+@import url("banner-azul.css");
+@import url("desktop.css");
 
 :root {
     --cor-de-fundo: hsl(240, 75%, 98%);
@@ -12,6 +15,7 @@
     --cor-azul-claro: hsl(224, 93%, 58%);
     --cor-verde: hsl(165, 75%, 44%);
     --cor-branco: hsl(0, 0%, 100%);
+    --cor-cinza-escuro: hsl(238, 22%, 44%);
 }
 
 body {
