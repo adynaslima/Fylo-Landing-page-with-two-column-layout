@@ -19,6 +19,7 @@
 }
 
 .banner-segundo-titulo {
+    color: var(--cor-azul-escuro);
     margin-bottom: 2em;
     font-weight: bold;
     text-align: center;
