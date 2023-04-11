@@ -1,7 +1,6 @@
 .cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: var(--cor-cinza-claro);
+    text-align: center;
 }
 
 .container-item {
@@ -10,12 +9,23 @@
 
 .cabecalho-logo {
     width: 5rem;
+    padding: 2em;
+}
+
+#menuhamburger {
+    display: block;
+    background-color: var(--cor-de-fundo);
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#menuhamburger:hover {
+    background-color: var( --cor-azul-escuro);
+    color: var(--cor-branco);
 }
 
 .cabecalho-lista {
-    display: flex;
-    flex-direction: row;
-    column-gap: 1em;
+    display: none;
 }
 
 .cabecalho-link {
@@ -25,4 +35,7 @@
 .cabecalho-item-lista {
     font-size: 12px;
     color: var(--cor-azul-escuro);
+    padding: 1em;
+    border-bottom: 1px solid var(--cor-azul-escuro);
+    background-color: var(--cor-de-fundo);
 }
