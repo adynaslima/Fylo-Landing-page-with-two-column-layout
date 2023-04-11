@@ -39,3 +39,7 @@
     color: var(--cor-branco)
 }
 
+.banner-azul a:hover {
+    color: var(--cor-azul-claro);
+}
+

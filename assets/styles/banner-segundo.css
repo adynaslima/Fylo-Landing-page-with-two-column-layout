@@ -44,6 +44,10 @@
     width: max-content;
 }
 
+.banner-segundo-botao:hover {
+    cursor: pointer;
+}
+
 .container-borda {
     width: 60vw;
     border: 1px solid var(--cor-branco);
